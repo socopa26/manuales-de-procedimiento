@@ -6,7 +6,7 @@ Artefacto de auditoría; no forma parte del procedimiento oficial. Comparación 
 
 - Original: `00_ORIGINALES/GEN-SOP-05-V1-2026 Gestión de Expedientes.docx`.
 - SHA-256 original: `7bdaa2c52adfa16fb057325c67124e65a7a415bdad924af4f79af98149eb84c7`.
-- Integrado: `01_INTEGRACION/GEN-SOP-05-V1-2026_INTEGRADO.docx`.
+- Integrado: `02_APROBADOS_AUDITORIA_FINAL/GEN-SOP-05-V1-2026_INTEGRADO.docx`.
 - SHA-256 integrado: `73fd2dd89b65e4254c8c8c18bcdf9f3cae19f2807db1d8a46882cbdfa685ae2f`.
 - Commit de incorporación del integrado: `a58d1015353d6c72c387f94de8e1d3c3b5147d13`.
 
@@ -95,9 +95,10 @@ El original y el integrado no han sido reescritos para esta auditoría; sus hash
 
 - ID 12: denominación/código y ubicación oficial del Manual Operativo del Asistente Administrativo; definición institucional sobre instructivo QBO independiente frente a capítulo del Manual AA. No se creó un instructivo independiente.
 - Campos administrativos aún marcados `[POR DEFINIR]`: fecha de aprobación, elaboró, revisó y aprobó, incluidos los campos correspondientes del control de versiones.
-- Fecha de entrada en vigor: no definida; no se inventó una fecha para activar la política prospectiva.
+- Fecha de entrada en vigor: Dato a completar durante aprobación/oficialización; no constituye pendiente de integración ni nuevo hallazgo.
 - Diferencia de nomenclatura entre portada y Tabla 1: conservada, pendiente de resolución institucional.
-- Revisión independiente y aprobación de la integración de GEN-SOP-05: pendientes; permanece en `01_INTEGRACION`.
+
+GEN-SOP-05: integración aprobada. Revisión independiente de la integración completada y aprobada; documento ubicado en `02_APROBADOS_AUDITORIA_FINAL`.
 
 No surgió un nuevo pendiente de integración.
 
