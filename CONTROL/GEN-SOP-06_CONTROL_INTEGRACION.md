@@ -6,9 +6,9 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 - Original: `00_ORIGINALES/GEN-SOP-06-V1-2026 Gestión de Grupos de WhatsApp.docx`.
 - SHA-256 original: `884dcbb641d8cd51e3e0561e4d7683a0821e84b8347f91b88b0a1abffa857dba`.
-- Integrado: `01_INTEGRACION/GEN-SOP-06-V1-2026_INTEGRADO.docx`.
+- Integrado: `02_APROBADOS_AUDITORIA_FINAL/GEN-SOP-06-V1-2026_INTEGRADO.docx`.
 - SHA-256 integrado: `486d812e6b5bc14113d3344443ebb861736f4a4cfe72462e5f68dac1cddc79f8`.
-- Estado: **EN REVISIÓN – integración realizada**.
+- Estado: **GEN-SOP-06: integración aprobada**. Revisión independiente aprobada.
 - Commit de incorporación: el commit dedicado que introduce este DOCX y estos artefactos; su SHA se entrega al usuario y puede recuperarse mediante `git log --diff-filter=A -- 01_INTEGRACION/GEN-SOP-06-V1-2026_INTEGRADO.docx`.
 
 ## B. Comparación estructural
@@ -101,9 +101,8 @@ Por tanto, permanecen intactos los metadatos, la descripción literal del contro
 
 ## H. Pendientes
 
-- Revisión independiente y aprobación de esta integración. El documento permanece en `01_INTEGRACION`.
 - **ID12 — pendiente institucional:** se conserva `Manual Operativo del Asistente Administrativo: [POR DEFINIR: código oficial].` No se define código, denominación definitiva, ubicación oficial ni instrucción QBO independiente.
 - Campos administrativos `[POR DEFINIR]`: conservados sin completar.
-- **[PENDIENTE DE PEINADO FINAL – modelo 10.7 contiene nombres propios pese a la regla general «sin nombres reales»]**. No es pendiente de integración; no es hallazgo transversal nuevo; no debe resolverse ahora. Se revisará durante el peinado final de GEN-SOP-06 y los modelos permanecen intactos durante esta integración.
+- **[PENDIENTE DE PEINADO FINAL – modelo 10.7 contiene nombres propios pese a la regla general «sin nombres reales»]**. No es pendiente de integración; no es hallazgo transversal; se atenderá durante el peinado/QA final. Los modelos permanecen intactos durante esta integración.
 
 No surgió ningún **[NUEVO PENDIENTE DE INTEGRACIÓN]**. Se conservaron los saltos de numeración y numeraciones repetidas fuente para el peinado final. No se modificaron GEN-SOP-05 ni CAL-SOP-01; no se avanzó a COM-SOP-01.
