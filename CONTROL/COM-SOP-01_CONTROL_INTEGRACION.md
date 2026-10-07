@@ -6,9 +6,9 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 - Original: `00_ORIGINALES/COM-SOP-01-V1-2026 Gestión de Ofertas.docx`.
 - SHA-256 original: `92b833eed7fc654d678ba2d34f64656e4879c9ca8623baa241c33ff875a6fda6`.
-- Integrado: `01_INTEGRACION/COM-SOP-01-V1-2026_INTEGRADO.docx`.
+- Integrado: `02_APROBADOS_AUDITORIA_FINAL/COM-SOP-01-V1-2026_INTEGRADO.docx`.
 - SHA-256 integrado: `c29d80c4b30a2b3fbb1ef095f73cc3909cbf1459e9c3a8e6343ab2590db10bc8`.
-- Estado: **EN REVISIÓN – integración realizada**.
+- Estado: **COM-SOP-01: integración aprobada**. Revisión independiente aprobada. Las observaciones visuales registradas en el QA no son pendientes de integración ni hallazgos transversales nuevos; se revisarán durante el peinado individual final.
 - Commit de incorporación: commit dedicado que agrega el integrado y estos artefactos; su SHA se entrega al usuario y se recupera mediante `git log --diff-filter=A -- 01_INTEGRACION/COM-SOP-01-V1-2026_INTEGRADO.docx`.
 - Base de decisiones: comparación aprobada y correcciones finales del usuario, incluido el paquete completo de autorización. No se aplicaron propuestas anteriores sustituidas.
 
@@ -141,7 +141,6 @@ VH-HIST-01, 03 y 04: una aparición cada uno; VH-HIST-02: dos; VH-HIST-05: tres.
 
 ## H. Pendientes
 
-- Revisión independiente y aprobación de esta integración. Permanece en `01_INTEGRACION`.
 - **ID08 — pendiente institucional:** responsable definitivo de la carga de presupuesto CTA; la asignación al AA permanece expresamente provisional.
 - **ID12 — pendiente institucional:** código y ubicación oficial del Manual AA, y definición institucional sobre instructivo QBO independiente o capítulo del Manual AA. No se inventa ninguna de esas decisiones.
 - Campos administrativos [POR DEFINIR], ubicaciones oficiales aún no resueltas de Excel, plantillas, ofertas y respaldos, elaboración/adjuntos de anexos y referencia CFIA: conservados.
