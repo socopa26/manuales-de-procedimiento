@@ -12,7 +12,7 @@ Los archivos `.gitkeep` permiten conservar en Git las carpetas sin documentos; n
 | Procedimiento | Estado de integración | Ubicación |
 | --- | --- | --- |
 | GEN-SOP-05-V1-2026 | APROBADO – integración revisada | 02_APROBADOS_AUDITORIA_FINAL |
-| CAL-SOP-01-V1-2025 | EN REVISIÓN – integración realizada | 01_INTEGRACION |
+| CAL-SOP-01-V1-2025 | APROBADO – integración revisada | 02_APROBADOS_AUDITORIA_FINAL |
 | COM-SOP-01-V1-2026 | PENDIENTE DE INTEGRACIÓN | 00_ORIGINALES |
 | CTA-SOP-01-V1-2026 | PENDIENTE DE INTEGRACIÓN | 00_ORIGINALES |
 | CTO-SOP-01-V1-2026 | PENDIENTE DE INTEGRACIÓN | 00_ORIGINALES |

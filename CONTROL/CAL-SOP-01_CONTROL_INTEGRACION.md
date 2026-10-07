@@ -6,12 +6,12 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 - Original: `00_ORIGINALES/Manual de Procedimientos Gestión de Garantías CAL-SOP-01-V1-2025.docx`.
 - SHA-256 original: `1f681d44f0591b7095bd0e2c87a5babf25658277233315fc06af5480edf0bc30`.
-- Integrado: `01_INTEGRACION/CAL-SOP-01-V1-2025_INTEGRADO.docx`.
+- Integrado: `02_APROBADOS_AUDITORIA_FINAL/CAL-SOP-01-V1-2025_INTEGRADO.docx`.
 - SHA-256 integrado: `c22ecf2d4bcbf81174d94d10b217666e841efd3686a802126ab0cbc57e131e78`.
-- Estado: **EN REVISIÓN – integración realizada**. Revisión independiente pendiente.
+- Estado: **APROBADO – integración revisada**. **CAL-SOP-01: integración aprobada**. Revisión independiente completada y aprobada.
 - Commit de incorporación inicial: `3604a23e7190af3c89e260d492ef34271201f029`.
 - Base exclusiva de este ciclo correctivo: el integrado de ese commit, SHA-256 `a028e16bde2bc73de1f1215dd84a6d5e0ec751f902f8cfe2e5ff55484921c90e`. No se reinició desde el original.
-- El commit correctivo que contiene esta actualización se identifica con `git log -1 -- 01_INTEGRACION/CAL-SOP-01-V1-2025_INTEGRADO.docx`; su SHA se entrega al usuario.
+- Commit correctivo aprobado: `cf8dbf30c9802de688adcf24c5c16b4f0614ccde`.
 
 ## B. Comparación estructural
 
@@ -154,9 +154,10 @@ No se detectaron nuevos cortes, deformaciones de tablas ni páginas en blanco an
 
 Persisten los dos recortes preexistentes en las primeras fórmulas de Tabla 5, página 23. Los ensayos locales no los resolvieron y fueron revertidos. Por ello no se afirma ausencia global de recortes: se conserva el estado previo conforme a la alternativa autorizada por el usuario.
 
-## H. Pendientes vigentes
+## H. Estado de cierre y pendiente de peinado final
 
-1. Revisión independiente del ciclo correctivo y aprobación de CAL-SOP-01. Estado: **EN REVISIÓN – integración realizada**; permanece en `01_INTEGRACION`.
-2. **[PENDIENTE DE PEINADO FINAL – recorte visual preexistente de fórmulas]**: dos fórmulas de Tabla 5, página 23. No constituye un hallazgo de proceso.
+**CAL-SOP-01: integración aprobada**. La revisión independiente del ciclo correctivo quedó completada y aprobada. El DOCX se trasladó a `02_APROBADOS_AUDITORIA_FINAL` sin modificar su contenido; sus bytes y SHA-256 permanecen idénticos.
 
-El pendiente de Figura 1 queda resuelto mediante la corrección gráfica autorizada. No surgieron nuevos pendientes de integración. CAL no se trasladó a `02_APROBADOS_AUDITORIA_FINAL`; no se avanzó a GEN-SOP-06.
+**[PENDIENTE DE PEINADO FINAL – recorte visual preexistente de fórmulas]**: dos fórmulas de Tabla 5, página 23. No es un pendiente de integración; no es un hallazgo de proceso; se atenderá durante el peinado/QA final.
+
+El pendiente de Figura 1 queda resuelto mediante la corrección gráfica autorizada. No quedan pendientes de integración de CAL-SOP-01. Este cierre documental no modifica el DOCX ni constituye su oficialización. No se avanzó a GEN-SOP-06.
