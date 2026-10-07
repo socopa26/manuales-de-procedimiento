@@ -186,7 +186,7 @@ Con el fin de asegurar una atención de calidad y estandarizar la gestión comun
 | --- |
 | ⚠ Regla general: Toda comunicación relevante con el cliente debe ser clara, responsable, proactiva y trazable mediante el canal oficial de comunicación: El grupo de WhatsApp.  Importante: Si no existe grupo, Aseguramiento de la Calidad debe crearlo conforme a GEN-SOP-06-V1-2026, agregar al cliente y al personal correspondiente, sin incluir a Proveeduría, y explicar la finalidad del mismo. |
 
-El responsable de garantías es el responsable directo de atender (o remitir) la información al canal oficial de comunicación, como mínimo, cuando se dé alguno de los siguientes sucesos:
+Aseguramiento de la Calidad es responsable de atender o remitir la información al canal oficial de comunicación, como mínimo, cuando se dé alguno de los siguientes sucesos:
 
 • Se reciba el reclamo de garantía y se emitan, como hitos separados, el acuse operativo en WhatsApp y el acuse de recibo formal.
 
@@ -368,7 +368,7 @@ El proceso de garantía inicia cuando el cliente reporta una no conformidad, adj
 
 • Evidencia fotográfica o de video.
 
-Este reporte debe ser realizado o, en su defecto, remitido por el encargado de garantías, al canal oficial de comunicación.
+Este reporte debe ser realizado o, en su defecto, remitido por Aseguramiento de la Calidad al canal oficial de comunicación.
 
 Al recibir el reclamo, el Ingeniero de Proyecto responsable de la obra, actuando como Aseguramiento de la Calidad, o el ingeniero formalmente reasignado por Gerencia de Proyectos conforme a este procedimiento, debe:
 
@@ -454,7 +454,7 @@ Si el caso procede, corresponde realizar la apertura de la orden de cambio en Ma
 
 • Registrar en la descripción del texto “General” y en categoría “Obra gris”.
 
-• Asignar un presupuesto simbólico, definido a criterio del responsable de garantías y del Gerente de Proyectos.
+• Asignar un presupuesto simbólico, definido a criterio de Aseguramiento de la Calidad y del Gerente de Proyectos.
 
 • Crear la orden o guardarla como borrador, si aún hay información faltante. 
 
@@ -519,7 +519,7 @@ Su propósito es profundizar en el análisis técnico e investigar el problema, 
 
 • Generar evidencias de las condiciones del problema.
 
-H. Inspección de reparación
+B. Inspección de reparación
 
 Su propósito es asegurar la correcta ejecución de las medidas correctivas definidas, mediante la coordinación, supervisión y validación de los trabajos de reparación.
 
@@ -541,7 +541,7 @@ En todos los casos, independientemente de su duración, las intervenciones deber
 
 • Generar evidencias del antes y el después de las reparaciones.
 
-I. Inspección de cierre
+C. Inspección de cierre
 
 Su propósito es dar cierre técnico a las reparaciones realizadas. Se debe:
 
@@ -812,7 +812,7 @@ A. Archivo de Seguimiento de Garantías
 
 &#9;Dirección: &#92;&#92;192.168.1.5&#92;08 Publico&#92;Jonathan Alfaro&#92;01. Seguimiento de Garantías.xlsx
 
-J. Módulo de Órdenes de Cambio en Proyecto 01 – Mantenimiento y Reparaciones
+B. Módulo de Órdenes de Cambio en Proyecto 01 – Mantenimiento y Reparaciones
 
 <!-- Párrafo sin texto -->
 
@@ -824,7 +824,7 @@ Dirección: https://admin.mawi.io/projects/7908/budgets/7578/change&#95;orders
 
 <!-- Párrafo sin texto -->
 
-K. Archivo Auxiliar de Programación Semanal de Garantías
+C. Archivo Auxiliar de Programación Semanal de Garantías
 
 <!-- Párrafo sin texto -->
 
@@ -832,7 +832,7 @@ K. Archivo Auxiliar de Programación Semanal de Garantías
 
 Dirección: &#92;&#92;192.168.1.5&#92;08 Publico&#92;Jonathan Alfaro&#92;02. Programación Semanal de Garantías.xlsx
 
-L. Anexo 4 Criterios de clasificación de garantías y tiempos objetivos de atención
+D. Anexo 4 Criterios de clasificación de garantías y tiempos objetivos de atención
 
 <!-- Párrafo sin texto -->
 
@@ -842,7 +842,7 @@ Dirección: &#92;&#92;192.168.1.5&#92;08 Publico&#92;Jonathan Alfaro&#92;01. Seg
 
 <!-- Párrafo sin texto -->
 
-M. Portada de archivo de Guía de Garantías Mínimas 2016 de la Cámara Costarricense de la Construcción (CCC)
+E. Portada de archivo de Guía de Garantías Mínimas 2016 de la Cámara Costarricense de la Construcción (CCC)
 
 <!-- Párrafo sin texto -->
 
@@ -854,7 +854,7 @@ M. Portada de archivo de Guía de Garantías Mínimas 2016 de la Cámara Costarr
 
 &#9;Ruta: &#92;&#92;192.168.1.5&#92;08 Publico&#92;Jonathan Alfaro&#92;guia&#95;garantias&#95;minimas&#95;2016.pdfRuta: &#92;&#92;192.168.1.5&#92;08 Publico&#92;Jonathan Alfaro&#92;guia&#95;garantias&#95;minimas&#95;2016.pdf&#9;<br>
 
-N. Dashboard de Seguimiento de Garantías
+F. Dashboard de Seguimiento de Garantías
 
 <!-- Párrafo sin texto -->
 
@@ -864,7 +864,7 @@ N. Dashboard de Seguimiento de Garantías
 
 <!-- Párrafo sin texto -->
 
-O. Patrón del código de la línea de presupuesto en Orden de Modificación
+G. Patrón del código de la línea de presupuesto en Orden de Modificación
 
 <!-- Párrafo sin texto -->
 
@@ -911,4 +911,4 @@ Habiendo leído lo anterior, las partes firman en señal de conformidad.
 
 ## Texto gráfico identificado durante QA
 
-[IMAGEN CONSERVADA – página 3, Figura 1, `word/media/image2.png`]. El diagrama contiene «2 días hábiles» junto a «Recepción y acuse de recibo» / «Remitir al grupo de WA». Es un residuo gráfico incompatible registrado en el control de integración; se preservó la imagen original.
+[IMAGEN CONSERVADA – página 3, Figura 1, `word/media/image2.png`]. La anotación de plazos del bloque «Recepción y acuse de recibo» / «Remitir al grupo de WA» contiene: «Acuse operativo en WhatsApp: Máx. 1 hora durante horario laboral. Acuse de recibo formal: Máx. 1 día hábil». La corrección de imagen está registrada en el control de integración.

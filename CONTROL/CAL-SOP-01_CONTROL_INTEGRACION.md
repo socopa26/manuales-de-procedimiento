@@ -7,9 +7,11 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 - Original: `00_ORIGINALES/Manual de Procedimientos Gestión de Garantías CAL-SOP-01-V1-2025.docx`.
 - SHA-256 original: `1f681d44f0591b7095bd0e2c87a5babf25658277233315fc06af5480edf0bc30`.
 - Integrado: `01_INTEGRACION/CAL-SOP-01-V1-2025_INTEGRADO.docx`.
-- SHA-256 integrado: `a028e16bde2bc73de1f1215dd84a6d5e0ec751f902f8cfe2e5ff55484921c90e`.
+- SHA-256 integrado: `c22ecf2d4bcbf81174d94d10b217666e841efd3686a802126ab0cbc57e131e78`.
 - Estado: **EN REVISIÓN – integración realizada**. Revisión independiente pendiente.
-- Commit de incorporación: el commit dedicado que introduce este archivo y el DOCX; identificable mediante `git log --diff-filter=A -- 01_INTEGRACION/CAL-SOP-01-V1-2025_INTEGRADO.docx`. Su SHA se entrega al usuario. No se añade una segunda modificación para insertar un SHA autorreferente.
+- Commit de incorporación inicial: `3604a23e7190af3c89e260d492ef34271201f029`.
+- Base exclusiva de este ciclo correctivo: el integrado de ese commit, SHA-256 `a028e16bde2bc73de1f1215dd84a6d5e0ec751f902f8cfe2e5ff55484921c90e`. No se reinició desde el original.
+- El commit correctivo que contiene esta actualización se identifica con `git log -1 -- 01_INTEGRACION/CAL-SOP-01-V1-2025_INTEGRADO.docx`; su SHA se entrega al usuario.
 
 ## B. Comparación estructural
 
@@ -24,7 +26,7 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 La diferencia de 17 párrafos corresponde a 8 párrafos directos agregados y 9 párrafos de celdas dentro de tres filas nuevas en las Tablas 2, 3 y 4. No se creó ninguna tabla. El contenido adicional y los tres ajustes de indivisibilidad de filas explican la paginación. Renderizado con LibreOffice y fuentes Montserrat.
 
-## C. Modificaciones individuales de contenido
+## C. Modificaciones individuales de contenido — integración inicial
 
 Las ubicaciones P corresponden a párrafos directos del original; las ubicaciones de tablas siguen el orden OOXML indicado cuando corresponde. Cada sustitución se registra por separado, incluso cuando dos afectan al mismo párrafo. Los textos originales/integrados siguientes son los fragmentos efectivamente sustituidos; las adiciones muestran su contenido completo.
 
@@ -81,7 +83,7 @@ Las ubicaciones P corresponden a párrafos directos del original; las ubicacione
 | Tabla 4 — nueva fila Acuse operativo en WhatsApp, después de Registro inicial | AGREGAR FILA | [Fila inexistente] | Columna 1: Acuse operativo en WhatsApp<br>Columna 2: Enviado en máximo 1 hora durante horario laboral<br>Columna 3: Mensaje en el grupo oficial conforme a GEN-SOP-06-V1-2026<br>Columna 4: Falta de acuse operativo dentro del plazo |
 | Párrafo directo original P300 | MODIFICAR | Módulo de Órdenes de Cambio en Proyecto #01 Mantenimiento y Reparaciones | Módulo de Órdenes de Cambio en Proyecto 01 – Mantenimiento y Reparaciones |
 
-## D. Ajustes exclusivamente de formato
+## D. Ajustes exclusivamente de formato — integración inicial
 
 | Ubicación | Tipo de cambio | Texto original | Texto integrado |
 | --- | --- | --- | --- |
@@ -89,46 +91,72 @@ Las ubicaciones P corresponden a párrafos directos del original; las ubicacione
 | Tabla 3 — Acuse de recibo formal; tabla OOXML 6, fila integrada 4 | FORMATO | Fila divisible entre páginas; contenido sin cambios | w:cantSplit activado; contenido sin cambios |
 | 1.3.E — recuadro del ejemplo de seguimiento; tabla OOXML 11, fila integrada 1 | FORMATO | Fila divisible entre páginas; contenido sin cambios | w:cantSplit activado; contenido sin cambios |
 
+## D.1. Ciclo correctivo de revisión independiente — 7 de octubre de 2026
+
+Se aplicaron únicamente tres sustituciones textuales y el cambio localizado de Figura 1 sobre el integrado. La numeración del DOCX ya era correcta. Las correcciones del Markdown siguientes reparan exclusivamente la representación del extractor: los párrafos que heredan la numeración del estilo ahora continúan la instancia reiniciada explícitamente del mismo esquema. El G. vacío anterior a la Sección 2 permanece intacto.
+
+| Ubicación | Tipo de cambio | Texto original | Texto integrado |
+| --- | --- | --- | --- |
+| 1.1 | MODIFICAR | El responsable de garantías es el responsable directo de atender (o remitir) la información al canal oficial de comunicación, como mínimo, cuando se dé alguno de los siguientes sucesos: | Aseguramiento de la Calidad es responsable de atender o remitir la información al canal oficial de comunicación, como mínimo, cuando se dé alguno de los siguientes sucesos: |
+| 2.1 | MODIFICAR | Este reporte debe ser realizado o, en su defecto, remitido por el encargado de garantías, al canal oficial de comunicación. | Este reporte debe ser realizado o, en su defecto, remitido por Aseguramiento de la Calidad al canal oficial de comunicación. |
+| 2.4 | MODIFICAR | Asignar un presupuesto simbólico, definido a criterio del responsable de garantías y del Gerente de Proyectos. | Asignar un presupuesto simbólico, definido a criterio de Aseguramiento de la Calidad y del Gerente de Proyectos. |
+| Figura 1, página 3, anotación del primer bloque; word/media/image2.png | CORRECCIÓN GRÁFICA | 2 días hábiles | Acuse operativo en WhatsApp:<br>Máx. 1 hora durante horario laboral<br>Acuse de recibo formal:<br>Máx. 1 día hábil |
+| Markdown, 3.2 | CORREGIR EXTRACCIÓN; DOCX sin cambio | H. Inspección de reparación | B. Inspección de reparación |
+| Markdown, 3.2 | CORREGIR EXTRACCIÓN; DOCX sin cambio | I. Inspección de cierre | C. Inspección de cierre |
+| Markdown, Anexos | CORREGIR EXTRACCIÓN; DOCX sin cambio | J. Módulo de Órdenes de Cambio en Proyecto 01 – Mantenimiento y Reparaciones | B. Módulo de Órdenes de Cambio en Proyecto 01 – Mantenimiento y Reparaciones |
+| Markdown, Anexos | CORREGIR EXTRACCIÓN; DOCX sin cambio | K. Archivo Auxiliar de Programación Semanal de Garantías | C. Archivo Auxiliar de Programación Semanal de Garantías |
+| Markdown, Anexos | CORREGIR EXTRACCIÓN; DOCX sin cambio | L. Anexo 4 Criterios de clasificación de garantías y tiempos objetivos de atención | D. Anexo 4 Criterios de clasificación de garantías y tiempos objetivos de atención |
+| Markdown, Anexos | CORREGIR EXTRACCIÓN; DOCX sin cambio | M. Portada de archivo de Guía de Garantías Mínimas 2016 de la Cámara Costarricense de la Construcción (CCC) | E. Portada de archivo de Guía de Garantías Mínimas 2016 de la Cámara Costarricense de la Construcción (CCC) |
+| Markdown, Anexos | CORREGIR EXTRACCIÓN; DOCX sin cambio | N. Dashboard de Seguimiento de Garantías | F. Dashboard de Seguimiento de Garantías |
+| Markdown, Anexos | CORREGIR EXTRACCIÓN; DOCX sin cambio | O. Patrón del código de la línea de presupuesto en Orden de Modificación | G. Patrón del código de la línea de presupuesto en Orden de Modificación |
+
+Las actualizaciones de SHA-256, QA y pendientes del presente control reflejan esos cambios y no añaden contenido al procedimiento.
+
+**Ensayos de fórmulas no retenidos:** se probaron una reducción local de tamaño de 9,5 a 7,5 pt y una reducción local del tamaño de argumentos de fracción. Ninguna eliminó el recorte en el renderizado. Ambos ensayos se revirtieron por completo; no forman parte del DOCX entregado. No se alteraron tablas, otras celdas ni indicadores para forzar una solución.
+
 ## E. Elementos preservados
 
-Se compararon todas las partes del ZIP: únicamente cambió `word/document.xml`. Estilos, numeración, relaciones, nueve imágenes, diagramas, encabezados, pies y demás partes permanecen idénticos byte a byte. En el cuerpo, al retirar las adiciones y restituir los fragmentos autorizados y las tres propiedades de formato, la comparación OOXML canónica coincide con el original. Se conservan tablas y dimensiones de columnas, saltos de página y sección, anexos, dashboard, rutas y contenido no afectado. Metadatos, involucrados, indicadores y sus fórmulas, objetivo y marco normativo permanecen intactos. No se creó RACI, anexo, control de versiones ni campo Año. No se modificó ningún DOCX original ni GEN-SOP-05.
+En este ciclo, la comparación con el integrado anterior confirma que únicamente cambiaron `word/document.xml` y `word/media/image2.png`. En el XML, solo cambiaron los tres párrafos autorizados (112, 213 y 256, contando párrafos del cuerpo incluidas celdas); al restituirlos, el XML canónico coincide íntegramente con la base del ciclo. Todas las 22 tablas permanecen idénticas, incluidas las fórmulas completas de Tabla 5.
 
-## F. QA textual
+Se conservan las 9 imágenes. Las otras 8 son idénticas byte a byte. Figura 1 conserva dimensiones de 1433 × 1819 píxeles y transparencia; solo cambian píxeles dentro del rectángulo de la anotación autorizada (x=949–1330, y=129–249). Se verificó igualdad de todos los píxeles fuera de esa zona. Se preservaron bloques, flechas, leyenda y demás textos del diagrama.
 
-| Término buscado | Apariciones en texto editable |
+Estilos, numeración, relaciones, encabezados, pies, saltos, rutas, anexos, dashboard, metadatos e involucrados permanecen sin cambios en este ciclo. No se modificaron los originales, GEN-SOP-05 ni GEN-SOP-06.
+
+## F. QA textual y de numeración — estado corregido
+
+| Verificación | Resultado |
 | --- | --- |
-| 2 días hábiles | 0 |
-| encargado de garantías | 1 |
+| 2 días hábiles asociados al acuse | 0 en texto editable y 0 en Figura 1 corregida; sin residuos incompatibles identificados en la revisión gráfica |
+| encargado de garantías | 0 en texto editable; sin aparición identificada en gráficos |
+| responsable de garantías | 0 en texto editable; sin aparición identificada en gráficos |
 | retirarse del sitio | 0 |
-| RACI | 0 |
-| Proveeduría | 6 |
-| Proyecto 01 | 9 |
-| 1 hora | 4 |
-| 1 día hábil | 4 |
-| 3 días hábiles | 9 |
-| casos excepcionales debidamente justificados | 1 |
+| RACI como estructura nueva | No existe |
+| Proveeduría | 6 apariciones editables; se conserva exclusivamente el soporte logístico interno y su exclusión de chats con clientes |
+| Proyecto 01 | 9 apariciones editables; sin cambios en este ciclo |
+| 1 hora | 4 apariciones editables; además, plazo operativo en Figura 1 |
+| 1 día hábil | 4 apariciones editables; además, plazo formal en Figura 1 |
+| 3 días hábiles | 9 apariciones editables; sin cambios en este ciclo |
+| casos excepcionales debidamente justificados | 1 aparición editable; conservada |
+| Tipos de inspección | A/B/C correctos en render, página 16, y Markdown |
+| Anexos | A–G correctos en render, páginas 25–28, y Markdown |
+| G. vacío antes de Sección 2 | Conservado |
+| Indicadores y fórmulas | Sin cambio textual ni de OOXML respecto del integrado anterior |
 
-Residuos examinados individualmente:
+Las reglas sustantivas de gobernanza, comunicación, delegación y Mawi aprobadas en la integración inicial permanecen intactas, con las tres denominaciones del rol ahora uniformadas por autorización expresa. Las menciones antiguas en las columnas «Texto original» de este control se conservan únicamente como historial de cambios, no como contenido vigente del procedimiento.
 
-- **«2 días hábiles»**: ninguna aparición en texto editable; una aparición gráfica en Figura 1, página 3, `word/media/image2.png`, asociada a recepción/acuse. Incompatible con el nuevo acuse formal de máximo 1 día hábil. Se conserva por la instrucción de no modificar diagramas; pendiente explícito abajo.
-- **«encargado de garantías»**: una aparición editable en 2.1, párrafo 213 del cuerpo integrado incluyendo celdas: «Este reporte debe ser realizado o, en su defecto, remitido por el encargado de garantías, al canal oficial de comunicación.» Es contenido fuente fuera de las reglas modificadas de 3.2; válido por la identificación del rol en Tabla 2 y la regla de recepción, sin reinterpretación adicional. No permanece en las reglas modificadas de 3.2.
-- **«retirarse del sitio»**: ninguna aparición editable ni residuo visual identificado.
+## G. QA visual — ciclo correctivo
 
-Se verificaron el rol integral de Aseguramiento de la Calidad, el mismo Ingeniero de Proyecto de la obra y la reasignación por salida/no disponibilidad gestionada por Gerencia de Proyectos; Ingeniería consultiva y Proveeduría exclusivamente logística interna, excluida de chats con clientes. La ejecución física se delega a Maestro de Obra, cuadrillas/mano de obra o Subcontratistas, conservando coordinación, supervisión y verificación. Se conservan la excepción debidamente justificada y el umbral de más de una (1) hora.
+Se volvió a renderizar el DOCX completo y se verificaron las páginas 1–29: las imágenes renderizadas de 25 páginas son idénticas byte a byte a las ya revisadas; se inspeccionaron visualmente de nuevo las cuatro páginas que cambiaron (3, 8, 12 y 14). Figura 1 está actualizada y legible, con ambos acuses separados. Se conservan 553 párrafos del cuerpo incluidas celdas, 22 tablas, 9 imágenes, una sección Word y 29 páginas. Este ciclo no agregó párrafos, tablas, imágenes ni páginas.
 
-El texto editable distingue acuse operativo máximo 1 hora laboral, respuesta general el mismo día, acuse formal máximo 1 día hábil, resultados máximo 3 días hábiles post-visita y seguimiento cada 3 días hábiles en casos activos. Proyecto 01 mantiene la centralización de costos y órdenes de cambio, como proyecto especial preexistente; CAL no se extiende a todas sus reparaciones menores. Los pasos nativos de Mawi se conservaron sin inventar pasos nuevos.
+La revisión confirma A/B/C en Tipos de inspección y A–G en Anexos. El defecto era del artefacto de auditoría; no se modificaron las propiedades de numeración del DOCX.
 
-## G. QA visual
+No se detectaron nuevos cortes, deformaciones de tablas ni páginas en blanco anormales. Encabezados, pies y las filas nuevas de la integración inicial permanecen correctos. Las tres sustituciones textuales mantienen una paginación razonable. Los únicos ajustes de indivisibilidad de filas conservados son los tres de la integración inicial, ya registrados en D; no se incorporó ningún ajuste nuevo de formato en este ciclo.
 
-Se renderizaron y revisaron **todas las páginas 1–29** del integrado, comparando las páginas afectadas con el original de 27 páginas. Las filas nuevas de Tablas 2, 3 y 4 respetan el formato y número de columnas nativos. Se conservaron imágenes, diagramas, dashboard, anexos, encabezados y pies. No se detectaron páginas en blanco anormales; la paginación es razonable para el contenido incorporado.
+Persisten los dos recortes preexistentes en las primeras fórmulas de Tabla 5, página 23. Los ensayos locales no los resolvieron y fueron revertidos. Por ello no se afirma ausencia global de recortes: se conserva el estado previo conforme a la alternativa autorizada por el usuario.
 
-Los únicos ajustes visuales realizados son los tres `w:cantSplit` individualizados en D, para impedir cortes internos de filas. No alteran textos ni dimensiones. Las tablas afectadas no presentan deformaciones ni texto nuevo fuera de sus celdas.
+## H. Pendientes vigentes
 
-**Limitación visual preexistente:** en Tabla 5 de indicadores, dos fórmulas se recortan en el renderizado dentro del límite derecho de la celda. Se observa también en el original, página 22; en el integrado está en página 23. Se verificó que el OOXML de indicadores/fórmulas permanece idéntico. No se alteró, dada la instrucción de conservar indicadores. Por ello no se afirma ausencia global de recorte; no se atribuye a la integración ni se inventa un cambio de contenido.
+1. Revisión independiente del ciclo correctivo y aprobación de CAL-SOP-01. Estado: **EN REVISIÓN – integración realizada**; permanece en `01_INTEGRACION`.
+2. **[PENDIENTE DE PEINADO FINAL – recorte visual preexistente de fórmulas]**: dos fórmulas de Tabla 5, página 23. No constituye un hallazgo de proceso.
 
-## H. Pendientes
-
-1. Revisión independiente de la integración de CAL-SOP-01.
-2. **[NUEVO PENDIENTE DE INTEGRACIÓN] — Figura 1, página 3:** el plazo gráfico «2 días hábiles» junto al acuse requiere una decisión/autorización específica para actualizar el diagrama y representar correctamente la distinción entre acuse operativo y formal. No se corrigió por inferencia; la imagen permanece idéntica al original.
-
-La limitación de renderizado de indicadores se registra en G para decisión de revisión, sin modificar los indicadores ni convertirla en un hallazgo de proceso. No se resolvieron pendientes institucionales de otros procedimientos. CAL permanece en `01_INTEGRACION`; no se avanzó a GEN-SOP-06.
+El pendiente de Figura 1 queda resuelto mediante la corrección gráfica autorizada. No surgieron nuevos pendientes de integración. CAL no se trasladó a `02_APROBADOS_AUDITORIA_FINAL`; no se avanzó a GEN-SOP-06.
