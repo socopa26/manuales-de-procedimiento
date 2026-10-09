@@ -4,7 +4,7 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 ## A. Identificación y estado
 
-**CTA-SOP-01: EN REVISIÓN – integración realizada.** Pendiente de revisión independiente y aprobación de la integración. No oficializado.
+**CTA-SOP-01: integración aprobada.** Revisión independiente aprobada para la fase de integración. No oficializado.
 
 Fecha de integración: 09/10/2026 (America/Costa_Rica).
 
@@ -138,9 +138,9 @@ La extracción Markdown incluye todos los párrafos del cuerpo y pie, las 21 tab
 
 ## F. Pendientes vigentes
 
-### Revisión de integración
+### Estado de revisión de integración
 
-Revisión independiente y aprobación del integrado: pendiente. Permanece en `01_INTEGRACION`.
+Revisión independiente y aprobación del integrado: aprobadas. Ubicación actual: `02_APROBADOS_AUDITORIA_FINAL/CTA-SOP-01-V1-2026_INTEGRADO.docx`. Los pendientes institucionales, documentales locales y de peinado, así como las observaciones visuales conservadas, no son pendientes de integración ni nuevos hallazgos transversales.
 
 ### Institucionales
 
