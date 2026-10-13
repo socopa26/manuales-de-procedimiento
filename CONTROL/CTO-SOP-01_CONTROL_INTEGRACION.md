@@ -4,13 +4,13 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 ## A. Identificación y estado
 
-**CTO-SOP-01: EN REVISIÓN – integración realizada.** Revisión independiente y aprobación del integrado pendientes. No oficializado.
+**CTO-SOP-01: integración aprobada.** Revisión independiente de integración aprobada. Estado: APROBADO – integración revisada. No oficializado.
 
 Fecha: 13/10/2026 (America/Costa_Rica).
 
 Fuente exclusiva: `00_ORIGINALES/CTO-SOP-01-V1-2026_Gestion_Integral_Proyectos_Constructivos_Versión definitiva....docx`.
 
-Salida: `01_INTEGRACION/CTO-SOP-01-V1-2026_INTEGRADO.docx`.
+Ubicación actual: `02_APROBADOS_AUDITORIA_FINAL/CTO-SOP-01-V1-2026_INTEGRADO.docx`.
 
 SHA-256 original: `14379f39f17f0fef5a3773c15d61233636dbcdcb2172244cf872145a8a78fa88`.
 
@@ -222,4 +222,4 @@ Los pendientes fuente no se reclasifican ni resuelven por inferencia. CPI/SPI si
 
 **[NUEVO PENDIENTE DE INTEGRACIÓN]: ninguno.** Contabilidad Externa en cierre y campo área quedaron resueltos por las instrucciones finales, aplicadas sin inventar responsables.
 
-Pendiente de revisión independiente del integrado. Permanece en `01_INTEGRACION`; no se trasladó a aprobados. No se avanzó a CTO-SOP-03 ni se modificó otro DOCX. README: únicamente la fila CTO-SOP-01 cambia a EN REVISIÓN – integración realizada.
+Revisión independiente del integrado aprobada. Trasladado sin modificación de bytes a `02_APROBADOS_AUDITORIA_FINAL/CTO-SOP-01-V1-2026_INTEGRADO.docx`, sin duplicado en `01_INTEGRACION`. No se avanzó a CTO-SOP-03 ni se modificó otro DOCX. README: únicamente la fila CTO-SOP-01 cambia a APROBADO – integración revisada.
