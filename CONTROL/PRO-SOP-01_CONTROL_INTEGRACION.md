@@ -4,7 +4,7 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 ## A. Identificación y estado
 
-**PRO-SOP-01: EN REVISIÓN – integración realizada.** Pendiente de revisión independiente y aprobación de la integración. No oficializado.
+**PRO-SOP-01: integración aprobada.** Revisión independiente de integración aprobada. No oficializado.
 
 Fecha: 09/10/2026 (America/Costa_Rica).
 
@@ -168,9 +168,9 @@ Los encabezados/pies heredados y la duplicidad/superposición gráfica siguen pr
 
 ## H. Pendientes
 
-### Revisión independiente
+### Estado de revisión independiente
 
-Pendiente de revisión independiente y aprobación de esta integración. El DOCX permanece en `01_INTEGRACION`.
+Revisión independiente de integración aprobada. Ubicación actual: `02_APROBADOS_AUDITORIA_FINAL/PRO-SOP-01-V1-2026_INTEGRADO.docx`. Los pendientes de peinado final se conservan íntegramente; no son pendientes de integración ni nuevos hallazgos transversales.
 
 ### Peinado final — no corregidos
 
