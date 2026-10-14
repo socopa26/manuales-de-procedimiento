@@ -4,13 +4,13 @@ Artefacto de auditoría; no forma parte del procedimiento oficial.
 
 ## A. Identificación y estado
 
-**CTO-SOP-03: EN REVISIÓN – integración realizada.** Pendiente de revisión independiente y aprobación. No oficializado.
+**CTO-SOP-03: integración revisada y aprobada.** Revisión independiente de integración aprobada. Estado: APROBADO – integración revisada. No oficializado.
 
 Fecha: 14/10/2026 (America/Costa_Rica).
 
 Fuente exclusiva: `00_ORIGINALES/CTO-SOP-03-V1-2026 - Procedimiento de Comunicación Financiera de Proyectos de Construcción.docx`.
 
-Salida: `01_INTEGRACION/CTO-SOP-03-V1-2026_INTEGRADO.docx`.
+Ubicación actual: `02_APROBADOS_AUDITORIA_FINAL/CTO-SOP-03-V1-2026_INTEGRADO.docx`.
 
 SHA-256 original: `fc8cfdd530454965fb59aa20b955670b2ba43f317c6853c5b2ee2b9508c19068`.
 
@@ -210,4 +210,4 @@ Se conservan literalmente los registros aprobados de observaciones fuente. Su ub
 
 **[NUEVO PENDIENTE DE INTEGRACIÓN]: ninguno.** La modificación exclusiva del título de Figura 3 fue técnicamente posible sin cambiar su cuerpo ni los demás recursos.
 
-Pendiente de revisión independiente. Permanece en `01_INTEGRACION`, sin trasladar a aprobados. README: solo fila CTO-SOP-03 actualizada a EN REVISIÓN – integración realizada. No se avanzó a CTO-SOP-02.
+Revisión independiente de integración aprobada. Trasladado sin modificación de bytes a `02_APROBADOS_AUDITORIA_FINAL/CTO-SOP-03-V1-2026_INTEGRADO.docx`, sin duplicado en `01_INTEGRACION`. README: solo fila CTO-SOP-03 actualizada a APROBADO – integración revisada. No se avanzó a CTO-SOP-02.
