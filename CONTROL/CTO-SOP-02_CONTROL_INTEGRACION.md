@@ -2,7 +2,7 @@
 
 Artefacto de auditoría; no forma parte del procedimiento oficial.
 
-Estado: **EN REVISIÓN – integración realizada**. Revisión independiente y aprobación del integrado: pendiente.
+Estado: **APROBADO – integración revisada**. CTO-SOP-02: integración aprobada. Revisión independiente de integración aprobada.
 
 ## Identificación
 
@@ -125,7 +125,6 @@ No se detectaron pérdida de contenido, páginas vacías nuevas, nuevos desborda
 
 ## Pendientes
 
-- Revisión independiente y aprobación del integrado.
 - [PENDIENTE DE PEINADO FINAL – caption del Anexo B inconsistente con su imagen]
 - [PENDIENTE DE PEINADO FINAL – caption del Anexo D inconsistente con su imagen]
 - [PENDIENTE DE PEINADO FINAL – captions/títulos separados de capturas, especialmente C, F y H]
